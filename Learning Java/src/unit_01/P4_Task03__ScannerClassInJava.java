@@ -1,5 +1,4 @@
-package unit_01_p1;
-package unit_01_p1;
+package unit_01;
 import java.util.Scanner;
 
 /*

@@ -1,5 +1,5 @@
  
-package unit_01_p1;
+package unit_01;
 /*
  * types of variables 
  * -- There are 3 types of variables.

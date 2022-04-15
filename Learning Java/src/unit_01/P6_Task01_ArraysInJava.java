@@ -1,4 +1,4 @@
-package unit_01_p1;
+package unit_01;
 /*
  * Normally, an array is a collection of similar types of elements stored at contiguous memory location
  * Java array is an object which contains  elements of similar data type 

@@ -1,4 +1,4 @@
-package unit_01_p1;
+package unit_01;
 
 /*
  * 3 ways:

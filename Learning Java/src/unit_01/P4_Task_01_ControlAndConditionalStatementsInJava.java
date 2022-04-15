@@ -1,4 +1,4 @@
-package unit_01_p1;
+package unit_01;
 /*
  * 	Control Statements and Conditional Statements :
  *  - Java provides three types of control flow statements.

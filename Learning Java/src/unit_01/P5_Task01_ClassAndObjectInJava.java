@@ -1,4 +1,4 @@
-package unit_01_p1;
+package unit_01;
 
 public class P5_Task01_ClassAndObjectInJava {
 
