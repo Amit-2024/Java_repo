@@ -21,6 +21,11 @@ public class P3_Task01_VariablesAndDataTypesInJava {
 	
 	static int x=6;
 	int y=5;
+	
+	public void AccessThroughAnotherPackage()
+	{
+		System.out.println("Hello");
+	}
 	public static void main(String[] args) {
 		
 		int a,b,c;			//declaration of variables in java
