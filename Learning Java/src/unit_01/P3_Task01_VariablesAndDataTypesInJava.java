@@ -26,6 +26,7 @@ public class P3_Task01_VariablesAndDataTypesInJava {
 	{
 		System.out.println("Hello");
 	}
+	
 	public static void main(String[] args) {
 		
 		int a,b,c;			//declaration of variables in java
@@ -41,7 +42,7 @@ public class P3_Task01_VariablesAndDataTypesInJava {
 		z = 'd';
 		
 		System.out.println(a);
-		System.out.println(x);
+ 		System.out.println(x);
 		System.out.println(d);
 		System.out.println(z);
 		

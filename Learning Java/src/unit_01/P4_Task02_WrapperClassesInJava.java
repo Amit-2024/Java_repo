@@ -6,6 +6,8 @@ package unit_01;
  *	Because we want to use predefined methods of those objects
  *	-boolean data types -> Boolean obj; -> obj.toString();
  */
+
+
 public class P4_Task02_WrapperClassesInJava {
 
 	public static void main(String[] args) {

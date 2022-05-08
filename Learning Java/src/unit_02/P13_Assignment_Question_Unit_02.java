@@ -31,7 +31,7 @@ class Assignment_Questions_Unit_02{
 		
 	}
 	
-	void accessProtectionInJava() {
+ 	void accessProtectionInJava() {
 		
 		Sample3 obj = new Sample3();
 		System.out.println(obj.a);
@@ -98,7 +98,7 @@ class Sample3 extends Sample2 implements A3, B3{
 	}
 	
 	public void run() {
-		System.out.println("This is a run method from abstract class sample3! ");
+		System.out.print ln("This is a run method from abstract class sample3! ");
 	}
 
 	public void run(int x) {

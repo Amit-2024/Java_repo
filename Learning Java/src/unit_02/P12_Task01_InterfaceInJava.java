@@ -1,6 +1,6 @@
-package unit_02;
+ package unit_02;
 /*
- * An Interface is a completely "abstract class"
+ * An Interface is a completely "abstract class" // 100% abstract class i.e only declaration will be on 
  * that is used to group related models with empty bodies
  * 
  * -Need of interface?
@@ -30,11 +30,12 @@ public class P12_Task01_InterfaceInJava implements Animal{
 	{
 		
 	}
-	public void run()
+	public void run() 
 	{
 		
 	}
 }
+
 class Species implements Animal, Human
 {
 	public void animalSound()
@@ -46,7 +47,7 @@ class Species implements Animal, Human
 	{
 		System.out.println("INSIDE run method");
 	}
-	public void humanSound()
+ 	public void humanSound()
 	{
 		System.out.println("INSIDE humanSound");
 	}

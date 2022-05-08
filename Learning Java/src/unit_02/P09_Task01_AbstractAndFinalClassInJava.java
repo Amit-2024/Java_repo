@@ -56,10 +56,11 @@ final class Super
 		System.out.println(data);
 	}
 }
-/*public class Sub extends Super
-{
-	void display2()
-	{
-		display();
-	}
-}*/
+
+//public class Sub extends Super
+//{
+//	void display2()
+//	{
+//		display();
+//	}
+//}
