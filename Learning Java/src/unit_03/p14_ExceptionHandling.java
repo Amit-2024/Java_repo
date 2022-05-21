@@ -5,13 +5,15 @@ public class p14_ExceptionHandling {
 	public static void main(String[] args) {
 		
 		operationOnException obj = new operationOnException();
-		obj.test();
 		
+		
+		obj.test();
 		obj.multipleException(0);
-		obj.IndexOutofbound();
 		obj.inputMismatchException();
-		obj.ManualExceptionThrow();
+		obj.IndexOutofbound();
 		obj.NullPointerException();
+		obj.ManualExceptionThrow();
+		
 	
 	}
 }
