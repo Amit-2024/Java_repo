@@ -22,9 +22,10 @@ public class P15_FileHandling_In_Java {
 	public static void main(String[] args) throws IOException {
 
 		ABCDEF obj = new ABCDEF();
-		//obj.takeInputFromAFile();
-		obj.saveOutputIntoAFile();
-		// obj.saveLogOfProgram();
+//		obj.takeInputFromAFile();
+//		obj.saveOutputIntoAFile();
+		obj.saveLogOfProgram();
+		
 
 	}
 
@@ -36,15 +37,17 @@ class ABCDEF {
 
 	void takeInputFromAFile() throws IOException {
 
-		String path = "C:\\Users\\Amit\\git\\Java_repo\\Learning Java\\src\\unit_03\\input.txt";
-		File file = new File(path);
+//		String path = "C:\\Users\\Amit\\git\\Java_repo\\Learning Java\\src\\unit_03\\input.txt";
+//		File file = new File(path);
 
-		BufferedReader br = new BufferedReader(new FileReader(file));
+		//BufferedReader br = new BufferedReader(new FileReader(file));
 		// OR
 		/*
 		 *  FileReader obj = new FileReader(file);
 		 *  BufferedReader br = new BufferedReader(obj);
 		 */
+		
+		BufferedReader br = new BufferedReader(new FileReader("C:\\\\Users\\\\Amit\\\\git\\\\Java_repo\\\\Learning Java\\\\src\\\\unit_03\\\\input.txt"));
 		
 //		String st;
 //		while ((st = br.readLine()) != null) {
@@ -52,7 +55,7 @@ class ABCDEF {
 //		}
 
 		// list that holds strings of a file
-		List<String> listOfStrings = new ArrayList<String>();
+		ArrayList<String> listOfStrings = new ArrayList<String>();
 
 		// read entire line as string
 		String line = br.readLine();
@@ -71,18 +74,18 @@ class ABCDEF {
 
 	void saveOutputIntoAFile() throws IOException {
 
-		FileWriter myObj = null;
+		//FileWriter myObj = null;
 
-		try {
-			myObj = new FileWriter("C:\\Users\\Amit\\git\\Java_repo\\Learning Java\\src\\unit_03\\output.txt");
-		} catch (IOException e) {
-			
-			e.printStackTrace();
-		}
+		//try {
+		FileWriter myObj = new FileWriter("C:\\Users\\Amit\\git\\Java_repo\\Learning Java\\src\\unit_03\\output.txt");
+//		} catch (IOException e) {
+//			
+//			e.printStackTrace();
+//		}
 
 		BufferedWriter f_writer = new BufferedWriter(myObj);
 
-		String text = "Hey this would store in Output file";
+		String text = "Hey this ;) would store in Output file";
 
 		f_writer.write(text);
 		f_writer.close();
@@ -100,7 +103,7 @@ class ABCDEF {
 		FileWriter myObj = null;
 
 		try {
-			myObj = new FileWriter("log.txt",true);
+			myObj = new FileWriter("C:\\Users\\Amit\\git\\Java_repo\\Learning Java\\src\\unit_03\\Khatabook.txt",true);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -108,7 +111,7 @@ class ABCDEF {
 
 		BufferedWriter f_writer = new BufferedWriter(myObj);
 
-		String text = "The Program executed at: " + ltime.toString() + " " + ldate.toString() + "\n";
+		String text = "The Program executed at: " + ltime + " " + ldate.toString() + "\n";
 
 		try {
 			f_writer.write("Value of a: " + a + ", ");

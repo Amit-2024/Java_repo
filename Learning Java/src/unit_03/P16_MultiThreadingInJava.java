@@ -10,14 +10,15 @@ package unit_03;
  */  				
 
 public class P16_MultiThreadingInJava {
-
+ 
 	public static void main(String[] args) {
+
 //		MultiThreading obj=new MultiThreading();
 //		obj.interThreadCommunication();
 //		obj.ProductConsumerProblems();
 //		obj.threadConcept();
 //		obj.threadSynchronization();
-		
+
 		Thread t1 = new Thread(new T3(),"T3");
 		Thread t2 = new Thread(new T2(),"T2");
 		
@@ -25,7 +26,6 @@ public class P16_MultiThreadingInJava {
 		t2.start();
 
 	}
-
 }
 
 class C1{
